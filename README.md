@@ -1,6 +1,5 @@
 # BSN_2024
 Projet Révolutionnaire
-
 # Vincenzo
 
 # Eliott
@@ -8,3 +7,5 @@ Projet Révolutionnaire
 # Mikaely
 
 # Karim
+
+# Max
