@@ -3,6 +3,4 @@ Projet Révolutionnaire
 
 # Vincenzo
 
-#Eliotte
-
-#mikaelyyyyyyyyy
+# Eliott
