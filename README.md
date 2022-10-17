@@ -5,6 +5,4 @@ Projet Révolutionnaire
 
 # Eliott
 
-#mikaely
-
-#Karimm
+# Mikaely
