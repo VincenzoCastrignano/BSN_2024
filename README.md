@@ -1,25 +1,15 @@
 # BSN_2024
-Projet Révolutionnaire
+Projet De la promotion BSN 2024
 
-### Le tuto que nous devons tous commencer à regarder :
+## Explication
 
-https://www.youtube.com/watch?v=F5u0WNozaWg
+Quelqu'un s'occupe du contexte en premier temps
+Quelqu'un s'occupe du projet en second temps
 
-### Map : https://www.youtube.com/watch?v=FotQIcC91V4
+## Procédure
 
+Quelqu'un s'occupe de comment nous allons opérer (IDE, language...)
 
-# Vincenzo
+## Intervenants
 
-# Eliott
-
-# Mikaely
-
-# Karim
-
-# Max
-
-# Nicolas
-
-# Olivier
-
-# Alhousseini
+Liste de nous 7, avec les profs
