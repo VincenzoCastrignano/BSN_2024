@@ -2,6 +2,7 @@
 
 ### Le tuto que nous avons tous commencer à regarder : https://www.youtube.com/watch?v=F5u0WNozaWg
 
-### Map : https://www.youtube.com/watch?v=FotQIcC91V4
+### Map : https://www.youtube.com/watch?v=FotQIcC91V4 ; : https://www.youtube.com/watch?v=PtZe-0aJ4f0
+        
 
 ### Créer Première application(interface + design) : https://developer.android.com/codelabs/build-your-first-android-app-kotlin#0
