@@ -1,3 +1,4 @@
+![google_map_test2](https://user-images.githubusercontent.com/91130147/197532512-7767fc19-ab64-4c18-a8c2-ac00782ed59c.PNG)
 ![google_map_test](https://user-images.githubusercontent.com/91130147/197531819-e84af789-de07-45ed-8cc9-6d77c3671907.PNG)
 ## Test API google map on Android Studio 
 
