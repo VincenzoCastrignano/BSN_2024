@@ -5,12 +5,12 @@
 
 ### Quelques lignes de code : 
 
-#Cette ligne désigne le fait d'ajouter le service de localisation sur l'app.
+##Cette ligne désigne le fait d'ajouter le service de localisation sur l'app.
 
     implementation 'com.google.android.gms:play-services-location:21.0.0'
 
 
-#Insertion de l'API
+##Insertion de l'API
 
 
 android:name="com.google.android.geo.API_KEY"
