@@ -11,11 +11,11 @@ Quelqu'un s'occupe de comment nous allons opérer (IDE, language...)
 
 
 ## L'équipe :
- -Vincenzo
- -Eliott
- -Mikaely
- -Karim 
- -Max
- -Nicolas
- -Alhousseini
  
+* Vincenzo Castrignano
+* Eliott BEAUDOUIN
+* Mikaely ANDRIANANDRAINA
+* Karim ASSI
+* Max MEYER
+* Nicolas PATIGNY
+* Alhousseini MOHAMED SORI

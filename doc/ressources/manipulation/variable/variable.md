@@ -1,6 +1,7 @@
 ## Créer un string:
 
 #### Dans chaque projet d'android studio, il y aura un répertoire "xml" dans "values" qui contient toute les variables déclarées
+<img src="https://user-images.githubusercontent.com/91130202/197538201-686a89bd-aa0a-4270-9476-31634c8c893b.png" width=150 length =150> 
 
 #### On peut declarér un string dans un ficher "strings.xml" qui aura tous les identifiant plus les valeurs de ces strings 
     
@@ -36,6 +37,7 @@
         <color name="button_background">#BBDEFB</color>
     </resources>
 
+#### On 
 
 
 
