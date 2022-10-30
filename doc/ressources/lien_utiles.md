@@ -6,3 +6,6 @@
         
 
 ### Créer Première application(interface + design) : https://developer.android.com/codelabs/build-your-first-android-app-kotlin#0
+
+
+### Api avec kotlin: https://medium.com/innovation-development/une-api-rest-kotlin-d%C3%A9velopp%C3%A9e-en-5-minutes-63a189b80809
