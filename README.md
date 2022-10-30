@@ -3,7 +3,9 @@ Projet De la promotion BSN 2024
 
 ## Explication
 
-Quelqu'un s'occupe du contexte en premier temps Quelqu'un s'occupe du projet en second temps
+> Dans le cadre de notre cursus, pour notre 2e année nous avons pour but de créer un projet en suivant la méthode d'agilité SCRUM
+
+> Quelqu'un s'occupe de la description du projet en second temps
 
 ## Procédure
 
