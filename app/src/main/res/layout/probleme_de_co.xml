@@ -59,21 +59,29 @@
         app:layout_constraintBottom_toTopOf="@+id/Password"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="51dp"
+        android:entries="@array/tel_countries"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <EditText
         android:id="@+id/Password"
-        android:layout_width="315dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="55dp"
+        android:layout_width="265dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="44dp"
         android:ems="10"
         android:fontFamily="@font/abeezee"
-        android:hint="Entrer votre numéro de téléphone..."
+        android:hint="Votre numéro de téléphone..."
         android:inputType="textPassword"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/EmailAddress"
