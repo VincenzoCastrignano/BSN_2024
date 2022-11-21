@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="98dp"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center_horizontal"
+        android:text="Vous avez reçu un
+
+        code à 6 chiffres :"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="@color/PurpleM"
+        android:fontFamily="@font/abeezee"
+        android:text="Continuer"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber11"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="244dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber8" />
+
+    <EditText
+        android:id="@+id/editTextNumber8"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber9" />
+
+    <EditText
+        android:id="@+id/editTextNumber9"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber10" />
+
+    <EditText
+        android:id="@+id/editTextNumber10"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber11" />
+
+    <EditText
+        android:id="@+id/editTextNumber11"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:hint="8"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
