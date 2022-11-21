@@ -1,19 +1,18 @@
 package com.example.bsn_2024
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.FragmentSecondBinding
+import com.example.bsn_2024.databinding.FragmentTroisBinding
+
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class SecondFragment : Fragment() {
-
-    private var _binding: FragmentSecondBinding? = null
+class FragmentTrois : Fragment() {
+    private var _binding: FragmentTroisBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +23,7 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentTroisBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -32,8 +31,8 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSecond.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_Fragment_Trois)
+        binding.buttonTrois.setOnClickListener {
+            findNavController().navigate(R.id.action_FragmentTrois_to_FirstFragment)
         }
     }
 
