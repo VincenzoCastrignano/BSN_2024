@@ -22,17 +22,7 @@
         tools:layout="@layout/fragment_second">
 
         <action
-            android:id="@+id/action_SecondFragment_to_Fragment_Trois"
-            app:destination="@id/Fragment_Trois" />
-    </fragment>
-    <fragment
-        android:id="@+id/Fragment_Trois"
-        android:name="com.example.bsn_2024.FragmentTrois"
-        android:label="@string/fragment_trois_label"
-        tools:layout="@layout/fragment_trois">
-
-        <action
-            android:id="@+id/action_FragmentTrois_to_FirstFragment"
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
