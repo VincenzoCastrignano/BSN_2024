@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="37dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="102dp"
+        android:fontFamily="@font/abeezee"
+        android:text="DM"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="60dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Profil"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="81dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Badges"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="57dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Amis"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="492dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="51dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abeezee"
+        android:text="RDV"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <SearchView
+        android:layout_width="292dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="84dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/profil"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="129dp"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
