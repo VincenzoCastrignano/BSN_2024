@@ -13,11 +13,10 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:background="@drawable/arrondir"
-        android:backgroundTint="@color/PurpleM"
-        android:text="PDP + Nom + Lieu heure"
+        android:text="AMI 3 + PDP + Last msg + Status online"
         app:layout_constraintBottom_toTopOf="@+id/button19"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
         android:id="@+id/button19"
@@ -27,7 +26,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:background="@drawable/arrondir"
-        android:text="PDP + Nom + Lieu heure"
+        android:text="AMI 4 + PDP + Last msg + Status online"
         app:layout_constraintBottom_toTopOf="@+id/button20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,7 +39,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:background="@drawable/arrondir"
-        android:text="PDP + Nom + Lieu heure"
+        android:text="AMI 5 + PDP + Last msg + Status online"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -53,7 +52,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:background="@drawable/arrondir"
-        android:text="PDP + Nom + Lieu heure"
+        android:text="AMI 2 + PDP + Last msg + Status online"
         app:layout_constraintBottom_toTopOf="@+id/button18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -66,19 +65,19 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="11dp"
         android:background="@drawable/arrondir"
-        android:text="PDP + Nom + Lieu heure"
+        android:text="AMI 1 + PDP + Last msg + Status online"
         app:layout_constraintBottom_toTopOf="@+id/button17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="293dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="45dp"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="48dp"
         android:fontFamily="@font/abeezee"
-        android:text="Tes prochains walk :"
+        android:text="Friends :"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/button16"
@@ -96,14 +95,14 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="251dp"
-        android:layout_height="54dp"
+        android:layout_width="283dp"
+        android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="38dp"
         android:fontFamily="@font/abeezee"
-        android:text="Rendez-vous"
+        android:text="Messages privés"
         android:textColor="@color/black"
-        android:textSize="40dp"
+        android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
