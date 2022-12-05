@@ -1,5 +1,0 @@
-Pour push :
-Faire un git pull sur dev et master
-faire push sur dev_vincenzo
-merge dev_vincenzo sur dev : git merge dev
-merge dev sur master : git merge master
