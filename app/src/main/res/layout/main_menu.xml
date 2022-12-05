@@ -124,13 +124,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="84dp"
-        android:layout_height="93dp"
-        app:srcCompat="@drawable/profil"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="129dp"
-        tools:visibility="visible" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
