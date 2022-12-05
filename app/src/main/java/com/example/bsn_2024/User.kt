@@ -40,6 +40,7 @@ class User {
     }
 }
 
+<<<<<<< HEAD
 /*
         (
         val ID: Int,
@@ -59,3 +60,9 @@ class User {
         val rdv: Array<String>
         )
 */
+=======
+
+//fun main(){
+    //val personne = User(1, "Castrignano", "Vincenzo", 19, "")
+//}
+>>>>>>> 59a45dd8653b588a22d1717a857b51fbcc442ffd
