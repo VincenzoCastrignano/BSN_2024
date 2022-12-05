@@ -10,6 +10,9 @@
 
     <string name="hello_first_fragment">0</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="random_button_text">Random Button</string>
+    <string name="toast_button_text">toast</string>
+    <string name="count_button">Count</string>
     <string-array name="tel_countries">
         <item>+33</item>
         <item>ETC</item>
