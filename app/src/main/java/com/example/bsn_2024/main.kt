@@ -22,5 +22,6 @@ fun main() {
     */
 
     //println(user.show_User())
+    user.show_User()
 
 }
