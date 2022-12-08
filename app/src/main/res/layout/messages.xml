@@ -5,14 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="67dp"
-        android:layout_height="77dp"
-        app:srcCompat="@drawable/flechegauch"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <TextView
         android:id="@+id/textView15"
         android:layout_width="34dp"
@@ -28,5 +20,14 @@
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="98dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="350dp"
+        android:layout_height="296dp"
+        android:text="MESSAGES"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="286dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
