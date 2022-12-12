@@ -1,5 +1,8 @@
 package com.example.bsn_2024
 
+// TESTTT
+
+
 import java.util.Dictionary
 
 class User (
@@ -39,6 +42,6 @@ class User (
 }
 
 
-fun main(){
-    val personne = User(1, "Castrignano", "Vincenzo", 19)
-}
+//fun main(){
+    //val personne = User(1, "Castrignano", "Vincenzo", 19, "")
+//}
