@@ -38,31 +38,8 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.randomButton.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-        }
-        view.findViewById<Button>(R.id.count_button).setOnClickListener {
-            Companion.countMe(view)
-        }
-        view.findViewById<Button>(R.id.Toast_button).setOnClickListener{
-            val myToast = Toast.makeText(context, "Bonjour je suis un toast", Toast.LENGTH_SHORT)
-            myToast.show()
-        }
     }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
-
-    companion object {
-        private fun countMe(view: View) {
-            val showCountTextView = view.findViewById<TextView>(R.id.textview_first)
-            val countString = showCountTextView.text.toString()
-            var count = countString.toInt()
-            count++
-            showCountTextView.text = count.toString()
-        }
-    }
-
 }
+
+
+

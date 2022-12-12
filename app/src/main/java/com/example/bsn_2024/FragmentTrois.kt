@@ -31,9 +31,7 @@ class FragmentTrois : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonTrois.setOnClickListener {
-            findNavController().navigate(R.id.action_FragmentTrois_to_FirstFragment)
-        }
+
     }
 
     override fun onDestroyView() {

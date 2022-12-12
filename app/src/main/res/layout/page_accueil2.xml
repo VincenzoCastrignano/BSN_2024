@@ -37,7 +37,7 @@
 
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/connexion_button"
         android:layout_width="207dp"
         android:layout_height="57dp"
         android:layout_marginStart="118dp"
@@ -66,7 +66,7 @@
         android:fontFamily="@font/abeezee"
         android:text="Créer un compte"
         android:textColor="@color/PurpleM"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintBottom_toTopOf="@+id/connexion_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -86,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/connexion_button" />
 
     <TextView
         android:id="@+id/textView3"

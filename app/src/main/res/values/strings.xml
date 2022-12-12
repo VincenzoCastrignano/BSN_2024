@@ -1,10 +1,17 @@
 <resources>
-    <string name="app_name">BSN_2024</string>
+    <string name="app_name"></string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="fragment_trois_label">Fragment trois</string>
+
+    <string name="page_acceuil2_label"></string>
+    <string name="connexion_label">page de connexion</string>
+
+
+
+
     <string name="previous">Previous</string>
     <string name="direction_button_trois">en Avant</string>
 
