@@ -1,6 +1,4 @@
 package com.example.bsn_2024
-
-
 import java.util.Dictionary
 
 class User(var ID: Int,
@@ -19,6 +17,11 @@ class User(var ID: Int,
            var trajet: Array<String>,
            var rdv: Array<String>) {
 
+    fun get_user(): User {
+        println("Fonction get_user()")
+        println("$ID")
+        return User(ID, last_name, first_name, age, mail, geoloc, friend, conversation, config, user_name, user_pwd, phone, sex, trajet, rdv)
+    }
 
     fun show_User() {
         println("$ID")
@@ -30,10 +33,9 @@ class User(var ID: Int,
         println("$friend")
         println("$conversation")
         println("etc...")
-
     }
 
-    fun Inscription() {
+    fun inscription() {
         println("Methode Inscription User")
         /*
         Toutes les données sont récupérées sur l'app
@@ -41,6 +43,10 @@ class User(var ID: Int,
         first_name = Prénom
         age = Age
          */
+    }
+
+    fun connexion() {
+
     }
 }
 
@@ -64,8 +70,3 @@ class User(var ID: Int,
         val rdv: Array<String>
         )
 */
-
-
-//fun main(){
-    //val personne = User(1, "Castrignano", "Vincenzo", 19, "")
-//}

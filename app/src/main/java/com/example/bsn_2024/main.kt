@@ -17,6 +17,8 @@ fun main() {
         trajet = arrayOf(""),
         rdv = arrayOf(""))
 
-    println(moi.show_User())
-
+    val a = moi.get_user()
+    println(a)
+    //println(moi.get_user())
+    //println(moi.show_User())
 }
