@@ -55,7 +55,9 @@
         android:id="@+id/imageButton3"
         android:layout_width="67dp"
         android:layout_height="66dp"
-        app:srcCompat="@drawable/file"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="36dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/file" />
 </androidx.constraintlayout.widget.ConstraintLayout>
