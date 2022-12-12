@@ -68,3 +68,14 @@
 
 * En cours...
 ---
+## Class Friends :
+
+* add_friend()  
+    Cette méthode permet à l'utilisateur d'ajouter un amis  
+    `À détailler`
+
+* del_friend()  
+    Cette méthode permet à l'utilisateur de supprimer un amis  
+    `À détailler`
+
+* En cours...
