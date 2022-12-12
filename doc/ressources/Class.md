@@ -78,4 +78,10 @@
     Cette méthode permet à l'utilisateur de supprimer un amis  
     `À détailler`
 
+* En cours...  
+---
+## Class Parameters :  
 * En cours...
+
+---
+## Class ??
