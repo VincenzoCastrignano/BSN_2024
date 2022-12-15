@@ -117,7 +117,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="516dp"
-        android:text="Salut, mon vrai nom c'est booba, si tu veux on peut walk enssemble."
+        android:text="Salut, mon vrai nom c'est Kaaris, si tu veux on peut walk enssemble."
         android:textAlignment="center"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,22 +153,21 @@
         android:layout_height="69dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow_left" />
+        app:srcCompat="@drawable/arrow_left"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/button23"
         android:layout_width="239dp"
         android:layout_height="60dp"
-        android:layout_marginStart="75dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginStart="50dp"
         android:layout_marginBottom="450dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
-        android:text="Modifier mon profil"
+        android:text="Friend Walk"
         android:textColor="@color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -180,4 +179,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/logo_projet_violet" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="58dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/message_circle" />
 </androidx.constraintlayout.widget.ConstraintLayout>
