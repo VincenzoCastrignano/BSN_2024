@@ -1,5 +1,6 @@
 package com.example.bsn_2024
 
+import android.app.ActivityOptions
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.view.Window
 import com.example.bsn_2024.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
