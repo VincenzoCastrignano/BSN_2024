@@ -17,4 +17,6 @@
         <item>ETC</item>
 
     </string-array>
+
+    <string name="test">oui</string>
 </resources>
