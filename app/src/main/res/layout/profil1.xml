@@ -12,42 +12,51 @@
         android:layout_width="142dp"
         android:layout_height="31dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="27dp"
         android:text="Walk Moments"
         android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="523dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="71dp"
         android:layout_height="67dp"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="345dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="71dp"
         android:layout_height="67dp"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="429dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="71dp"
         android:layout_height="67dp"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="345dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="71dp"
         android:layout_height="67dp"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="429dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -55,11 +64,12 @@
         android:layout_width="77dp"
         android:layout_height="24dp"
         android:layout_marginEnd="65dp"
+        android:layout_marginBottom="29dp"
         android:text="Amis"
         android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button31"
@@ -131,8 +141,10 @@
         android:id="@+id/imageView13"
         android:layout_width="77dp"
         android:layout_height="75dp"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="45dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
@@ -163,7 +175,9 @@
         android:id="@+id/imageView18"
         android:layout_width="136dp"
         android:layout_height="134dp"
-        app:srcCompat="@drawable/logo_projet_violet"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="581dp" />
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_projet_violet" />
 </androidx.constraintlayout.widget.ConstraintLayout>
