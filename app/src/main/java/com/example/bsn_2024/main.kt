@@ -18,9 +18,7 @@ fun main() {
         rdv = arrayOf(""))
 
     val a = moi.get_user()
-    println("Value de a : " + a::class.simpleName)
-    //println("a vaut : ", a)
+    println(a)
 
-    //println(moi.get_user())
-    //println(moi.show_User())
+
 }
