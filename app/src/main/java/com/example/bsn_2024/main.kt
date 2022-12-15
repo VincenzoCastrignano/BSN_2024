@@ -1,14 +1,11 @@
 package com.example.bsn_2024
 
 fun main() {
-    val user = User()
-
-    /*
-    val user = arrayOf(User(1,
-        "",
-        "",
+    val moi = User(1,
+        "Castrignano",
+        "Vincenzo",
         18,
-        "",
+        "vincenzo.castrignano@esqese.ucly.fr",
         true,
         friend = arrayOf(""),
         conversation = arrayOf(""),
@@ -18,10 +15,12 @@ fun main() {
         "0625817826",
         true,
         trajet = arrayOf(""),
-        rdv = arrayOf("")))
-    */
+        rdv = arrayOf(""))
 
-    //println(user.show_User())
-    user.show_User()
+    val a = moi.get_user()
+    println("Value de a : " + a::class.simpleName)
+    //println("a vaut : ", a)
 
+    //println(moi.get_user())
+    //println(moi.show_User())
 }
