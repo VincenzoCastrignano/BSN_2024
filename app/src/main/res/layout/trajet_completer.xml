@@ -26,21 +26,29 @@
         android:id="@+id/switch2"
         android:layout_width="275dp"
         android:layout_height="63dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="40dp"
         android:text="Je confirme etre arrivé(e) a destination"
         android:textAlignment="center"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="318dp" />
+        app:layout_constraintBottom_toTopOf="@+id/switch3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/switch3"
         android:layout_width="275dp"
         android:layout_height="63dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="40dp"
         android:text="Je confirme avoir été accompagné(e) par X"
         android:textAlignment="center"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView46"
@@ -69,9 +77,13 @@
         android:id="@+id/switch1"
         android:layout_width="275dp"
         android:layout_height="63dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="40dp"
         android:text="Je souhaite ajouter X a ma liste d'amis"
         android:textAlignment="center"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="525dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
