@@ -1,6 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="472dp"
+        android:fontFamily="@font/abeezee"
+        android:textColor="@color/black"
+        android:text="Cet utilisateur n'aura pas connaissance de votre signalement "
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/PurpleM"
+        android:fontFamily="@font/abeezee"
+        android:text="Confirmer"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="396dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Merci de nous préciser la raison de votre signalement..."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="77dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="328dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Signaler User"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="131dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
