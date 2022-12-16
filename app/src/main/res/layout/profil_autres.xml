@@ -1,0 +1,205 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="92dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Walk Moments"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="29dp"
+        android:text="Amis"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/abeezee"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="152dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/abeezee"
+        android:text="Walk : 8"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button30"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="152dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/abeezee"
+        android:text="Followers : 8"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="152dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/abeezee"
+        android:text="Badges : 8"
+
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="516dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Salut, mon vrai nom c'est Kaaris, si tu veux on peut walk enssemble."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="66dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="172dp"
+        android:fontFamily="@font/abeezee"
+        android:layout_marginTop="128dp"
+        android:text="User"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="77dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="450dp"
+        android:backgroundTint="@color/PurpleM"
+        android:fontFamily="@font/abeezee"
+        android:text="Friend Walk"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="136dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_projet_violet" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="58dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/message_circle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
