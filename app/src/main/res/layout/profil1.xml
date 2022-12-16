@@ -9,10 +9,11 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="142dp"
-        android:layout_height="31dp"
+        android:layout_width="153dp"
+        android:layout_height="33dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="27dp"
+        android:fontFamily="@font/abeezee"
         android:text="Walk Moments"
         android:textColor="@color/black"
         android:textSize="20dp"
@@ -117,6 +118,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="516dp"
+        android:fontFamily="@font/abeezee"
         android:text="Salut, mon vrai nom c'est booba, si tu veux on peut walk enssemble."
         android:textAlignment="center"
         android:textSize="15dp"

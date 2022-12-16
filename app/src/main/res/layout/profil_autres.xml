@@ -17,10 +17,11 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="142dp"
-        android:layout_height="31dp"
+        android:layout_width="165dp"
+        android:layout_height="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="27dp"
+        android:fontFamily="@font/abeezee"
         android:text="Walk Moments"
         android:textColor="@color/black"
         android:textSize="20dp"
@@ -76,6 +77,7 @@
         android:text="Amis"
         android:textColor="@color/black"
         android:textSize="20dp"
+        android:fontFamily="@font/abeezee"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -114,6 +116,7 @@
         android:backgroundTint="@color/white"
         android:fontFamily="@font/abeezee"
         android:text="Badges : 8"
+
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button29"
         app:layout_constraintStart_toStartOf="parent" />
@@ -125,6 +128,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="516dp"
+        android:fontFamily="@font/abeezee"
         android:text="Salut, mon vrai nom c'est Kaaris, si tu veux on peut walk enssemble."
         android:textAlignment="center"
         android:textSize="15dp"
@@ -138,6 +142,7 @@
         android:layout_width="66dp"
         android:layout_height="38dp"
         android:layout_marginStart="172dp"
+        android:fontFamily="@font/abeezee"
         android:layout_marginTop="128dp"
         android:text="User"
         android:textColor="@color/black"

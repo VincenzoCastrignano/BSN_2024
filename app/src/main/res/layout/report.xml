@@ -5,6 +5,185 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="312dp"
+        android:textSize="10dp"
+        android:fontFamily="@font/abeezee"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:text="Cet utilisateur m'a agressé(e) physiquement"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:srcCompat="@drawable/trait"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:textSize="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/abeezee"
+        android:layout_marginBottom="240dp"
+        android:text="Cet utilisateur m'a agressé(e) sexuellement"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:srcCompat="@drawable/trait"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="164dp"
+        android:fontFamily="@font/abeezee"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        android:text="cet utilisateur a pris des détours et n'a pas suivi le chemin établi"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:srcCompat="@drawable/trait"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="92dp"
+        android:textSize="10dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/abeezee"
+        android:textColor="@color/black"
+        android:text="cet utlisateur prétend etre quelqu'un d'autre"
+
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/PurpleM"
+        android:fontFamily="@font/abeezee"
+        android:text="Confirmer"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="84dp" />
+
     <TextView
         android:id="@+id/textView44"
         android:layout_width="352dp"
@@ -12,6 +191,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="472dp"
+        android:fontFamily="@font/abeezee"
         android:text="Cet utilisateur n'aura pas connaissance de votre signalement "
         android:textAlignment="center"
         android:textSize="15dp"
@@ -34,15 +214,56 @@
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="299dp"
-        android:layout_height="64dp"
+        android:layout_width="328dp"
+        android:layout_height="65dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="56dp"
+        android:fontFamily="@font/abeezee"
         android:text="Signaler User"
         android:textColor="@color/black"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="-30dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:srcCompat="@drawable/trait"
+        tools:layout_editor_absoluteX="95dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Autre"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="216dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="-30dp"
+        app:layout_constraintBottom_toTopOf="@+id/button40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
