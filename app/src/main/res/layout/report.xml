@@ -49,8 +49,9 @@
         android:layout_height="71dp"
         android:layout_marginBottom="272dp"
         app:layout_constraintBottom_toTopOf="@+id/button40"
-        app:srcCompat="@drawable/trait"
-        tools:layout_editor_absoluteX="98dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
 
     <Button
         android:id="@+id/button43"
@@ -88,8 +89,9 @@
         android:layout_height="71dp"
         android:layout_marginBottom="200dp"
         app:layout_constraintBottom_toTopOf="@+id/button40"
-        app:srcCompat="@drawable/trait"
-        tools:layout_editor_absoluteX="98dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/trait" />
 
     <Button
         android:id="@+id/button42"
@@ -108,14 +110,6 @@
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="216dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="124dp"
-        app:layout_constraintBottom_toTopOf="@+id/button40"
-        app:srcCompat="@drawable/trait"
-        tools:layout_editor_absoluteX="98dp" />
 
     <ImageView
         android:id="@+id/imageView32"
@@ -175,6 +169,8 @@
         android:id="@+id/button24"
         android:layout_width="239dp"
         android:layout_height="60dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="84dp"
         android:layout_marginBottom="25dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
@@ -182,7 +178,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="84dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView44"
@@ -227,14 +224,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="216dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="-30dp"
-        app:layout_constraintBottom_toTopOf="@+id/button40"
-        app:srcCompat="@drawable/trait"
-        tools:layout_editor_absoluteX="95dp" />
 
     <Button
         android:id="@+id/button40"
