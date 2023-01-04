@@ -7,13 +7,19 @@
 
     <fragment
         android:id="@+id/page_acceuil2"
-        android:name="com.example.bsn_2024.PageAcceuil2"
+        android:name="com.example.bsn_2024.Accueil"
         android:label="@string/page_acceuil2_label"
         tools:layout="@layout/page_accueil2">
 
+
+
         <action
             android:id="@+id/action_page_acceuil2_to_page_connexion1"
-            app:destination="@id/connexion1" />
+            app:destination="@id/connexion1"/>
+        <action
+            android:id="@+id/action_page_acceuil2_to_probleme_connexion"
+            app:destination="@+id/probleme1"/>
+
     </fragment>
 
     <fragment
@@ -25,4 +31,21 @@
 
 
     </fragment>
+
+    <fragment
+        android:id="@+id/inscription1"
+        android:name="com.example.bsn_2024.Inscription1"
+        android:label="@string/inscription_1"
+        tools:layout="@layout/page_inscription1">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/probleme1"
+        android:name="com.example.bsn_2024.probleme_connexion"
+        android:label="@string/probleme_1"
+        tools:layout="@layout/probleme1">
+
+    </fragment>
+
 </navigation>
