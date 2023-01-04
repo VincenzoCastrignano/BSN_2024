@@ -69,7 +69,6 @@
         android:fontFamily="@font/abeezee"
         android:hint="Votre adresse mail..."
         android:inputType="textPassword"
-        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent" />
 

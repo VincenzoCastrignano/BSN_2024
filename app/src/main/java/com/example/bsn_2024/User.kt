@@ -18,24 +18,28 @@ class User(var ID: Int,
            var rdv: Array<String>) {
 
     fun get_user(): User {
-        println("Fonction get_user()")
-        println("$ID")
         return User(ID, last_name, first_name, age, mail, geoloc, friend, conversation, config, user_name, user_pwd, phone, sex, trajet, rdv)
     }
 
-    fun show_User() {
-        println("$ID")
-        println("$last_name")
-        println("$first_name")
-        println("$age")
-        println("$mail")
-        println("$geoloc")
-        println("$friend")
-        println("$conversation")
-        println("etc...")
+    override fun toString(): String {
+        return ("ID : $ID \n" +
+                "last_name : $last_name\n" +
+                "first_name : $first_name\n" +
+                "age : $age\n" +
+                "mail : $mail\n" +
+                "geoloc : $geoloc\n" +
+                "friend : $friend\n" +
+                "conversation : $conversation\n" +
+                "config : $config\n" +
+                "user_name : $user_name\n" +
+                "user_pwd : $user_pwd\n" +
+                "phone : $phone\n" +
+                "sex : $sex\n" +
+                "trajet : $trajet\n" +
+                "rdv : $rdv\n")
     }
 
-    fun inscription() {
+    fun inscription(): String {
         println("Methode Inscription User")
         /*
         Toutes les données sont récupérées sur l'app
@@ -43,6 +47,7 @@ class User(var ID: Int,
         first_name = Prénom
         age = Age
          */
+        return "Méthode Inscription"
     }
 
     fun connexion() {
