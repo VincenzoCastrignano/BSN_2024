@@ -25,15 +25,12 @@ class PageAcceuil2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         _binding = PageAccueil2Binding.inflate(inflater, container, false)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.connexionButton.setOnClickListener {
             findNavController().navigate(R.id.action_page_acceuil2_to_page_connexion1)
         }
