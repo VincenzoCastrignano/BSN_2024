@@ -4,7 +4,7 @@ fun main() {
     val moi = User(1,
         "Castrignano",
         "Vincenzo",
-        18,
+        19,
         "vincenzo.castrignano@esqese.ucly.fr",
         true,
         friend = arrayOf(""),

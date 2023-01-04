@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/PurpleM">
 
     <TextView
         android:id="@+id/textView"
@@ -65,7 +66,6 @@
         android:fontFamily="@font/abeezee"
         android:hint="Entrer votre mot de passe..."
         android:inputType="textPassword"
-        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +82,6 @@
         android:fontFamily="@font/abeezee"
         android:hint="Entrer votre Email..."
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -107,8 +106,8 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="64dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/abeezee"
         android:text="Mot de passe oublié?"
