@@ -6,6 +6,18 @@
     android:layout_height="match_parent">
 
 
+    <EditText
+        android:id="@+id/edit_text_name2"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="23dp"
+        android:hint="Nom"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView34"
         android:layout_width="44dp"
@@ -29,10 +41,8 @@
         android:text="Prénom"
         android:textColor="@color/black"
         android:textSize="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/Password1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button15"
@@ -40,7 +50,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="86dp"
         android:layout_marginEnd="86dp"
-        android:layout_marginBottom="231dp"
+        android:layout_marginBottom="188dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
         android:text="Continuer"
@@ -48,6 +58,7 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -55,7 +66,6 @@
         android:layout_width="297dp"
         android:layout_height="37dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="24dp"
         android:fontFamily="@font/abeezee"
         android:text="Walk a Friend ne partagera jamais vos données sans votre permission."
         android:textAlignment="center"
@@ -63,7 +73,7 @@
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password" />
+        tools:layout_editor_absoluteY="387dp" />
 
     <TextView
         android:id="@+id/textView17"
@@ -78,32 +88,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/Password"
-        android:layout_width="265dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:ems="10"
-        android:fontFamily="@font/abeezee"
-        android:hint="Entrez votre nom......"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password1" />
-
-    <EditText
-        android:id="@+id/Password1"
-        android:layout_width="265dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="70dp"
-        android:ems="10"
-        android:fontFamily="@font/abeezee"
-        android:hint="Entrez votre prénom......"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="59dp"
@@ -111,6 +95,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
+
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="51dp"
+        android:hint="Prénom"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
