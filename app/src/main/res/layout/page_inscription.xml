@@ -2,13 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/inscription1"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
     <Button
-        android:id="@+id/button_email_insription"
+        android:id="@+id/button13"
         android:layout_width="168dp"
         android:layout_height="48dp"
         android:layout_marginTop="120dp"
@@ -23,38 +22,17 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:backgroundTint="@color/PurpleM"
-        android:background="@color/white"
         android:layout_width="59dp"
         android:layout_height="69dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="348dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
 
     <Button
-        android:id="@+id/button_continuer_inscription"
-        android:layout_width="239dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="76dp"
-        android:backgroundTint="@color/PurpleM"
-        android:fontFamily="@font/abeezee"
-        android:text="Continuer"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button_telephone_creation"
+        android:id="@+id/button12"
         android:layout_width="168dp"
         android:layout_height="48dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="120dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
@@ -64,31 +42,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="231dp"
+        android:backgroundTint="@color/PurpleM"
+        android:fontFamily="@font/abeezee"
+        android:text="Continuer"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/Spinner"
-        android:layout_width="92dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="84dp"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="51dp"
         android:entries="@array/tel_countries"
-        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/Password"
-        android:layout_width="261dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="84dp"
+        android:layout_width="265dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="44dp"
         android:ems="10"
         android:fontFamily="@font/abeezee"
         android:hint="Votre numéro de téléphone..."
         android:inputType="textPassword"
-
-        android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
@@ -109,12 +99,11 @@
         android:layout_width="204dp"
         android:layout_height="63dp"
         android:layout_marginStart="120dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="120dp"
-        android:layout_marginBottom="84dp"
-        app:layout_constraintBottom_toTopOf="@+id/Spinner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
         app:srcCompat="@drawable/trait" />
 
 

@@ -1,35 +1,45 @@
 package com.example.bsn_2024
-
-
 import java.util.Dictionary
 
-class User {
-    var ID: Int = 1
-    var last_name: String = "Castrignano"
-    var first_name: String ="Vincenzo"
-    var age: Int = 18
-    var mail: String = "vincenzo.castrignano@esqese.ucly.fr"
-    var geoloc: Boolean =true
-    var friend: Array<String> = arrayOf("")
-    var conversation: Array<String> = arrayOf("")
-    var config: Array<String> = arrayOf("")
-    var user_name: String = "Slayzen"
-    var user_pwd: String = "Slayzenmdp"
-    var phone: String = "0626273337"
-    var sex: Boolean = true
-    var trajet: Array<String> = arrayOf("")
-    var rdv: Array<String> = arrayOf("")
+class User(var ID: Int,
+           var last_name: String,
+           var first_name: String,
+           var age: Int,
+           var mail: String,
+           var geoloc: Boolean,
+           var friend: Array<String>,
+           var conversation: Array<String>,
+           var config: Array<String>,
+           var user_name: String,
+           var user_pwd: String,
+           var phone: String,
+           var sex: Boolean,
+           var trajet: Array<String>,
+           var rdv: Array<String>) {
 
-    init {
-        println("Le nom de la personne est $last_name")
+    fun get_user(): User {
+        return User(ID, last_name, first_name, age, mail, geoloc, friend, conversation, config, user_name, user_pwd, phone, sex, trajet, rdv)
     }
 
-
-    fun show_User() {
-        println("Méthode Show_User()")
+    override fun toString(): String {
+        return ("ID : $ID \n" +
+                "last_name : $last_name\n" +
+                "first_name : $first_name\n" +
+                "age : $age\n" +
+                "mail : $mail\n" +
+                "geoloc : $geoloc\n" +
+                "friend : $friend\n" +
+                "conversation : $conversation\n" +
+                "config : $config\n" +
+                "user_name : $user_name\n" +
+                "user_pwd : $user_pwd\n" +
+                "phone : $phone\n" +
+                "sex : $sex\n" +
+                "trajet : $trajet\n" +
+                "rdv : $rdv\n")
     }
 
-    fun Inscription() {
+    fun inscription(): String {
         println("Methode Inscription User")
         /*
         Toutes les données sont récupérées sur l'app
@@ -37,6 +47,11 @@ class User {
         first_name = Prénom
         age = Age
          */
+        return "Méthode Inscription"
+    }
+
+    fun connexion() {
+
     }
 }
 
@@ -60,8 +75,3 @@ class User {
         val rdv: Array<String>
         )
 */
-
-
-//fun main(){
-    //val personne = User(1, "Castrignano", "Vincenzo", 19, "")
-//}

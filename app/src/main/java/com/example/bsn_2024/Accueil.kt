@@ -23,10 +23,8 @@ class Accueil : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         _binding = PageAccueil2Binding.inflate(inflater, container, false)
         return binding.root
-
     }
 
 

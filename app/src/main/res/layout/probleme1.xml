@@ -89,7 +89,6 @@
         android:fontFamily="@font/abeezee"
         android:hint="Votre numéro de téléphone..."
         android:inputType="textPassword"
-        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -104,7 +103,6 @@
         android:fontFamily="@font/abeezee"
         android:hint="Entrer votre Email..."
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
