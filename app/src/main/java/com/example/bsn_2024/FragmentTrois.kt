@@ -5,15 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.Connexion1Binding
-
+import com.example.bsn_2024.databinding.FragmentTroisBinding
 
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class Connexion : Fragment() {
-    private var _binding: Connexion1Binding? = null
+class FragmentTrois : Fragment() {
+    private var _binding: FragmentTroisBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +23,7 @@ class Connexion : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = Connexion1Binding.inflate(inflater, container, false)
+        _binding = FragmentTroisBinding.inflate(inflater, container, false)
         return binding.root
 
     }

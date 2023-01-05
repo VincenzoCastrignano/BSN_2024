@@ -5,28 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="51dp"
-        android:text="Homme"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="20dp"
-        android:text="Femme"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
-
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="59dp"
         android:layout_height="69dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,20 +14,31 @@
         app:srcCompat="@drawable/arrow_left" />
 
     <TextView
-        android:id="@+id/textView33"
-        android:layout_width="305dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="75dp"
+        android:id="@+id/textView36"
+        android:layout_width="215dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/abeezee"
-        android:text="Je suis ..."
+        android:text="Voir les conditions générales d'utilisation de Walk a Friend"
         android:textColor="@color/black"
         android:textSize="20dp"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="189dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="215dp"
+        android:text="J'accepte les CGU"
+        app:layout_constraintBottom_toTopOf="@+id/button22"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/button22"
         android:layout_width="239dp"
         android:layout_height="60dp"
         android:layout_marginStart="86dp"
@@ -60,4 +51,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/file" />
 </androidx.constraintlayout.widget.ConstraintLayout>

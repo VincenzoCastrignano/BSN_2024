@@ -4,16 +4,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.Connexion1Binding
-
-
+import com.example.bsn_2024.databinding.Probleme1Binding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class Connexion : Fragment() {
-    private var _binding: Connexion1Binding? = null
+class probleme_connexion : Fragment() {
+
+    private var _binding: Probleme1Binding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,13 +22,8 @@ class Connexion : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = Connexion1Binding.inflate(inflater, container, false)
+        _binding = Probleme1Binding.inflate(inflater, container, false)
         return binding.root
-
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
 
     }
