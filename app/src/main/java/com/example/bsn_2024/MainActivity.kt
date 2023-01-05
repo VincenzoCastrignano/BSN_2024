@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
+<<<<<<< HEAD
         // Load the SQLite JDBC driver
         Class.forName("org.sqlite.JDBC")
 
@@ -48,6 +49,12 @@ class MainActivity : AppCompatActivity() {
         resultSet.close()
         statement.close()
         connection.close()
+=======
+        binding.fab.setOnClickListener { view ->
+            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show()
+        }
+>>>>>>> dev
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
