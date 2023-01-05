@@ -54,24 +54,3 @@ class User(var ID: Int,
 
     }
 }
-
-
-/*
-        (
-        val ID: Int,
-        val last_name: String,
-        val first_name: String,
-        val age: Int,
-        val mail: String,
-        val geoloc: Boolean,
-        val friend: Array<String>,
-        val conversation: Array<String>,
-        val config: Array<String>,
-        val user_name: String,
-        val user_pwd: String,
-        val phone: String,
-        val sex: Boolean,
-        val trajet: Array<String>,
-        val rdv: Array<String>
-        )
-*/
