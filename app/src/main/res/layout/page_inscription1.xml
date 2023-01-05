@@ -10,8 +10,8 @@
 
     <Button
         android:id="@+id/button_email_inscription"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="142dp"
+        android:layout_height="42dp"
         android:layout_marginTop="120dp"
         android:layout_marginEnd="30dp"
         android:backgroundTint="@color/white"
@@ -22,25 +22,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:backgroundTint="@color/PurpleM"
-        android:background="@color/white"
-        android:layout_width="59dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="348dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow_left" />
 
     <Button
         android:id="@+id/button_continuer_inscription"
         android:layout_width="239dp"
         android:layout_height="60dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="72dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
         android:text="Continuer"
@@ -48,15 +35,14 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <Button
         android:id="@+id/button_telephone_creation"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="141dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="120dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
@@ -68,11 +54,12 @@
 
     <Spinner
         android:id="@+id/Spinner"
-        android:layout_width="92dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="84dp"
+        android:layout_width="96dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="76dp"
         android:entries="@array/tel_countries"
+        android:textColor='@color/black'
         app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -81,7 +68,7 @@
         android:layout_width="261dp"
         android:layout_height="48dp"
         android:layout_marginEnd="44dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="82dp"
         android:ems="10"
         android:fontFamily="@font/abeezee"
         android:hint="Votre numéro de téléphone..."
@@ -95,8 +82,8 @@
         android:id="@+id/textView17"
         android:layout_width="305dp"
         android:layout_height="52dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/abeezee"
         android:text="Mon numéro de téléphone est :"
         android:textColor="@color/black"
@@ -110,13 +97,15 @@
         android:layout_height="63dp"
         android:layout_marginStart="120dp"
         android:layout_marginEnd="120dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="95dp"
         android:color="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/Spinner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/trait" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
