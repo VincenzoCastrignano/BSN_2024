@@ -4,21 +4,14 @@ fun main() {
     val moi = User(1,
         "Castrignano",
         "Vincenzo",
-        19,
+        "26-11-2003",
         "vincenzo.castrignano@esqese.ucly.fr",
         true,
-        friend = arrayOf(""),
-        conversation = arrayOf(""),
-        config = arrayOf(""),
-        "Username",
         "userpassword",
         "0625817826",
         true,
-        trajet = arrayOf(""),
-        rdv = arrayOf(""))
+        true)
 
     val a = moi.get_user()
     println(a)
-
-
 }

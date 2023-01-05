@@ -4,39 +4,29 @@ import java.util.Dictionary
 class User(var ID: Int,
            var last_name: String,
            var first_name: String,
-           var age: Int,
+           var birth: String,
            var mail: String,
            var geoloc: Boolean,
-           var friend: Array<String>,
-           var conversation: Array<String>,
-           var config: Array<String>,
-           var user_name: String,
-           var user_pwd: String,
+           var pwd: String,
            var phone: String,
            var sex: Boolean,
-           var trajet: Array<String>,
-           var rdv: Array<String>) {
+           var cgu: Boolean) {
 
     fun get_user(): User {
-        return User(ID, last_name, first_name, age, mail, geoloc, friend, conversation, config, user_name, user_pwd, phone, sex, trajet, rdv)
+        return User(ID, last_name, first_name, birth, mail, geoloc, pwd, phone, sex, cgu)
     }
 
     override fun toString(): String {
         return ("ID : $ID \n" +
                 "last_name : $last_name\n" +
                 "first_name : $first_name\n" +
-                "age : $age\n" +
+                "birth : $birth\n" +
                 "mail : $mail\n" +
                 "geoloc : $geoloc\n" +
-                "friend : $friend\n" +
-                "conversation : $conversation\n" +
-                "config : $config\n" +
-                "user_name : $user_name\n" +
-                "user_pwd : $user_pwd\n" +
+                "pwd : $pwd\n" +
                 "phone : $phone\n" +
                 "sex : $sex\n" +
-                "trajet : $trajet\n" +
-                "rdv : $rdv\n")
+                "cgu : $cgu\n")
     }
 
     fun inscription(): String {
@@ -51,6 +41,6 @@ class User(var ID: Int,
     }
 
     fun connexion() {
-
+        // Pas encore fait.
     }
 }
