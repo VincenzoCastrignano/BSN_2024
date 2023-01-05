@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.bsn_2024.databinding.ActivityMainBinding
+import java.sql.DriverManager
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,14 +21,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
+        setContentView(R.layout.activity_main)
         setSupportActionBar(binding.toolbar)
 
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
+        // Load the SQLite JDBC driver
+        Class.forName("org.sqlite.JDBC")
+
+        // Connect to the database
+        val connection = DriverManager.getConnection("jdbc:sqlite:mydatabase.db")
+
+        // Execute a query
+        val statement = connection.createStatement()
+        val resultSet = statement.executeQuery("SELECT * FROM users")
+
+        // Process the result set
+        while (resultSet.next()) {
+            val id = resultSet.getInt("id")
+            val name = resultSet.getString("name")
+            println("$id $name")
+        }
+        // Clean up
+        resultSet.close()
+        statement.close()
+        connection.close()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -51,4 +71,6 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+
 }
