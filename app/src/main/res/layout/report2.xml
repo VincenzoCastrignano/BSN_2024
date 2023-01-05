@@ -13,7 +13,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="472dp"
         android:fontFamily="@font/abeezee"
-        android:textColor="@color/black"
+        android:textColor="@color/PurpleM"
         android:text="Cet utilisateur n'aura pas connaissance de votre signalement "
         android:textAlignment="center"
         android:textSize="15dp"
