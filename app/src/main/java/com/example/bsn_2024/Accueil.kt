@@ -33,11 +33,15 @@ class Accueil : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.connexionButton.setOnClickListener{
-            findNavController().navigate(R.id.action_page_acceuil2_to_probleme_connexion)
+            findNavController().navigate(R.id.action_page_acceuil2_to_page_connexion1)
         }
 
         binding.pbconnexion.setOnClickListener{
             findNavController().navigate(R.id.action_page_acceuil2_to_probleme_connexion)
+        }
+
+        binding.inscription.setOnClickListener{
+            findNavController().navigate(R.id.action_page_acceuil2_to_inscription)
         }
 
     }
