@@ -1,6 +1,8 @@
 package com.example.bsn_2024
 
+import android.app.ActivityOptions
 import android.os.Bundle
+import android.text.TextUtils.replace
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -9,6 +11,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.view.Window
+import androidx.fragment.app.commit
 import com.example.bsn_2024.databinding.ActivityMainBinding
 import java.sql.DriverManager
 
@@ -27,8 +32,10 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
+        setContentView(binding.root)
 
-<<<<<<< HEAD
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
         // Load the SQLite JDBC driver
         Class.forName("org.sqlite.JDBC")
 
@@ -49,12 +56,10 @@ class MainActivity : AppCompatActivity() {
         resultSet.close()
         statement.close()
         connection.close()
-=======
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
->>>>>>> dev
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -78,6 +83,4 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
-
-
 }
