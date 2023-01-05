@@ -19,7 +19,9 @@
         <action
             android:id="@+id/action_page_acceuil2_to_probleme_connexion"
             app:destination="@+id/probleme1"/>
-
+        <action
+            android:id="@+id/action_page_acceuil2_to_inscription"
+            app:destination="@id/inscription"/>
     </fragment>
 
     <fragment
@@ -33,11 +35,13 @@
     </fragment>
 
     <fragment
-        android:id="@+id/inscription1"
+        android:id="@+id/inscription"
         android:name="com.example.bsn_2024.Inscription1"
-        android:label="@string/inscription_1"
+        android:label="@string/inscription"
         tools:layout="@layout/page_inscription1">
-
+        <action
+            android:id="@+id/action_telephone_to_email"
+            app:destination="@id/inscription2"/>
     </fragment>
 
     <fragment
@@ -48,4 +52,10 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/inscription2"
+        android:name="com.example.bsn_2024.Inscription2"
+        android:label="inscription2"
+        tools:layout="@layout/page_inscription2">
+    </fragment>
 </navigation>
