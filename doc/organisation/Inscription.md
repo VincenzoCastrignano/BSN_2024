@@ -10,7 +10,9 @@
 ---
 
 
-```
-    En gros il faut d'abord regarder combien de pages sont liées pour gérer l'inscription, on regarde aussi les données qui seront récupérées pour adapter la class User, ensuite il faudrait faire une structure de json pour stocker correctement les données en premier lieu. En local on peut créer une fonction qui reprend les données du json.
-A la fin de l'inscription on envoie sur la page d'accueil avec l'affichage du prénom par ex.
-```
+
+- En gros il faut d'abord regarder combien de pages sont liées pour gérer l'inscription
+- on regarde aussi les données qui seront récupérées pour adapter la class User
+- il faudrait faire une structure de json pour stocker correctement les données en premier lieu.
+- En local on peut créer une fonction qui reprend les données du json.
+- A la fin de l'inscription on envoie sur la page d'accueil avec l'affichage du prénom par ex.
