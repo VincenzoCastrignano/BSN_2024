@@ -23,21 +23,19 @@
         android:id="@+id/textView2"
         android:layout_width="216dp"
         android:layout_height="49dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="574dp"
         android:fontFamily="@font/abeezee"
         android:text="Walk a Friend"
         android:textColor="@color/white"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/connexion_button"
         android:layout_width="207dp"
         android:layout_height="57dp"
         android:layout_marginStart="118dp"
@@ -52,27 +50,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/inscription"
         android:layout_width="207dp"
         android:layout_height="57dp"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="118dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/abeezee"
         android:text="Créer un compte"
         android:textColor="@color/PurpleM"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintBottom_toTopOf="@+id/connexion_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/pbconnexion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -86,37 +82,34 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/connexion_button" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="326dp"
         android:layout_height="21dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginEnd="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
         android:fontFamily="@font/abeezee"
         android:text="En cliquant sur Connexion vous acceptez nos"
         android:textColor="@color/white"
         android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="255dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginEnd="1dp"
+        android:id="@+id/condition_generales"
+        android:layout_width="253dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
         android:text="Conditions Générales d'Utilisation."
-        android:textColor="@color/white"
+        android:textColor="@color/screenbackground"
         android:textSize="10sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintHorizontal_bias="0.923"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -142,14 +135,15 @@
         android:layout_height="59dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="76dp"
         android:fontFamily="@font/abeezee"
-        android:text="comment nous traitons vos données dans notre politique de confidentialité et notre politique en matière de cookies"
+        android:text="Comment nous traitons vos données dans notre politique de confidentialité et notre politique en matière de cookies"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/inscription"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
