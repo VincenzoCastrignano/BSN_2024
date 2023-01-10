@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.PageInscription3Binding
+import com.example.bsn_2024.databinding.PageInscription4Binding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class Inscription3 : Fragment() {
+class Inscription4 : Fragment() {
 
-    private var _binding: PageInscription3Binding? = null
+    private var _binding: PageInscription4Binding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,7 +23,7 @@ class Inscription3 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = PageInscription3Binding.inflate(inflater, container, false)
+        _binding = PageInscription4Binding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -31,11 +31,8 @@ class Inscription3 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.Back3.setOnClickListener{
-            findNavController().navigate(R.id.retour_email)
-        }
-        binding.continuerMdpPrenom.setOnClickListener{
-            findNavController().navigate(R.id.Mdp_prenom)
+        binding.Back4.setOnClickListener{
+            findNavController().navigate(R.id.retour_Mdp)
         }
     }
 

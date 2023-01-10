@@ -7,10 +7,10 @@
     android:background="@color/white">
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/continuerMdp_prenom"
         android:layout_width="239dp"
         android:layout_height="60dp"
-        android:layout_marginStart="86dp"
+        android:layout_marginStart="70dp"
         android:layout_marginEnd="86dp"
         android:layout_marginBottom="100dp"
         android:backgroundTint="@color/PurpleM"
@@ -49,7 +49,7 @@
         android:id="@+id/textView18"
         android:layout_width="241dp"
         android:layout_height="24dp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="96dp"
         android:fontFamily="@font/abeezee"
         android:text="Mon mot de passe est :"

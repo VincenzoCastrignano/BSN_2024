@@ -82,6 +82,18 @@
         <action
             android:id="@+id/retour_email"
             app:destination="@id/inscription2"/>
+        <action
+            android:id="@+id/Mdp_prenom"
+            app:destination="@id/inscription4"/>
 
+    </fragment>
+    <fragment
+        android:id="@+id/inscription4"
+        android:name="com.example.bsn_2024.Inscription4"
+        android:label="inscription4"
+        tools:layout="@layout/page_inscription4">
+        <action
+            android:id="@+id/retour_Mdp"
+            app:destination="@id/Inscription3"/>
     </fragment>
 </navigation>
