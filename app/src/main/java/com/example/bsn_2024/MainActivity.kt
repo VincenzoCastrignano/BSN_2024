@@ -13,6 +13,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.Window
+import android.widget.Button
 import androidx.fragment.app.commit
 import com.example.bsn_2024.databinding.ActivityMainBinding
 
@@ -28,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-
     }
+
 
 
 }

@@ -1,5 +1,4 @@
 package com.example.bsn_2024
-import java.util.Dictionary
 
 class User(var ID: Int,
            var last_name: String,
