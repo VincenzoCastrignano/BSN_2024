@@ -1,6 +1,8 @@
 package com.example.bsn_2024
 import java.util.Dictionary
 
+
+
 class User(var ID: Int,
            var last_name: String,
            var first_name: String,
@@ -50,9 +52,12 @@ class User(var ID: Int,
         return "Méthode Inscription"
     }
 
-    fun connexion() {
 
-    }
+    fun inscription2():
+
+    fun connexion():
+
+
 }
 
 
