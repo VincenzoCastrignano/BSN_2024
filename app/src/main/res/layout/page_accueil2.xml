@@ -23,9 +23,8 @@
         android:id="@+id/textView2"
         android:layout_width="216dp"
         android:layout_height="49dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="574dp"
         android:fontFamily="@font/abeezee"
         android:text="Walk a Friend"
         android:textColor="@color/white"
@@ -89,15 +88,12 @@
         android:id="@+id/textView3"
         android:layout_width="326dp"
         android:layout_height="21dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginEnd="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
         android:fontFamily="@font/abeezee"
         android:text="En cliquant sur Connexion vous acceptez nos"
         android:textColor="@color/white"
         android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -105,7 +101,7 @@
         android:id="@+id/condition_generales"
         android:layout_width="253dp"
         android:layout_height="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="4dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
         android:text="Conditions Générales d'Utilisation."
@@ -114,7 +110,6 @@
         android:textStyle="italic"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -140,7 +135,7 @@
         android:layout_height="59dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="76dp"
         android:fontFamily="@font/abeezee"
         android:text="Comment nous traitons vos données dans notre politique de confidentialité et notre politique en matière de cookies"
         android:textAlignment="center"
@@ -148,7 +143,7 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/inscription"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

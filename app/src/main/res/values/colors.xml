@@ -13,4 +13,5 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="screenbackground">#2196F3</color>
     <color name="button_background">#BBDEFB</color>
+    <color name="button_background_button">#DE42C4</color>
 </resources>

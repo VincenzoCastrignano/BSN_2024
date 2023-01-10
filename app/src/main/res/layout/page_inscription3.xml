@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <Button
         android:id="@+id/button14"
@@ -23,19 +24,60 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/Back3"
         android:layout_width="59dp"
         android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="241dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Mon mot de passe est :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="254dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
+
+        android:fontFamily="@font/abeezee"
+        android:text="Exigences mot de passe :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="147dp"
         android:layout_height="27dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/abeezee"
         android:text="- 8 caractères "
         android:textColor="@color/black"
@@ -44,24 +86,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
-        android:id="@+id/textView27"
-        android:layout_width="230dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/textView20"
+        android:layout_width="226dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/abeezee"
-        android:text="- Un caractère spécial"
+        android:text="- Une lettre majuscule  "
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="230dp"
         android:layout_height="22dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/abeezee"
         android:text="- Une lettre minuscule"
         android:textColor="@color/black"
@@ -73,8 +115,8 @@
         android:id="@+id/textView29"
         android:layout_width="147dp"
         android:layout_height="27dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/abeezee"
         android:text="- Un chiffre"
         android:textColor="@color/black"
@@ -83,53 +125,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="226dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/textView27"
+        android:layout_width="230dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/abeezee"
-        android:text="- Une lettre majuscule  "
+        android:text="- Un caractère spécial"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="254dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-
-        android:fontFamily="@font/abeezee"
-        android:text="Exigences mot de passe :"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="241dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="45dp"
-        android:fontFamily="@font/abeezee"
-        android:text="Mon mot de passe est :"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 </androidx.constraintlayout.widget.ConstraintLayout>
