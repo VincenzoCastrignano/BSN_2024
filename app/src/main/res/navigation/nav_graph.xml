@@ -42,6 +42,12 @@
         <action
             android:id="@+id/action_telephone_to_email"
             app:destination="@id/inscription2"/>
+        <action
+            android:id="@+id/retour_page_Acceuil"
+            app:destination="@id/page_acceuil2"/>
+        <action
+            android:id="@+id/telephone_Mdp"
+            app:destination="@id/Inscription3"/>
     </fragment>
 
     <fragment
@@ -57,5 +63,25 @@
         android:name="com.example.bsn_2024.Inscription2"
         android:label="inscription2"
         tools:layout="@layout/page_inscription2">
+
+        <action
+            android:id="@+id/action_email_to_telephone"
+            app:destination="@id/inscription"/>
+        <action
+            android:id="@+id/retour_page_Acceuil"
+            app:destination="@+id/page_acceuil2"/>
+        <action
+            android:id="@+id/email_Mdp"
+            app:destination="@id/Inscription3"/>
+    </fragment>
+    <fragment
+        android:id="@+id/Inscription3"
+        android:name="com.example.bsn_2024.Inscription3"
+        android:label="inscription3"
+        tools:layout="@layout/page_inscription3">
+        <action
+            android:id="@+id/retour_email"
+            app:destination="@id/inscription2"/>
+
     </fragment>
 </navigation>

@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonContinuerInscriptionEmail"
         android:layout_width="239dp"
         android:layout_height="60dp"
         android:layout_marginBottom="72dp"
@@ -62,7 +62,7 @@
         android:hint="Votre adresse mail..."
         android:inputType="textPassword"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContinuerInscriptionEmail"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
@@ -91,6 +91,17 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/trait" />
+
+    <ImageButton
+        android:id="@+id/Back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,6 +28,20 @@ class Inscription2 : Fragment() {
 
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.button13.setOnClickListener {
+            findNavController().navigate(R.id.action_email_to_telephone)
+        }
+        binding.Back2.setOnClickListener{
+            findNavController().navigate(R.id.retour_page_Acceuil)
+        }
+        binding.buttonContinuerInscriptionEmail.setOnClickListener{
+            findNavController().navigate(R.id.email_Mdp)
+        }
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

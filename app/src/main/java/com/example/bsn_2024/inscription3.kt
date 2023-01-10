@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.PageInscription1Binding
+import com.example.bsn_2024.databinding.PageInscription3Binding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class Inscription1 : Fragment() {
+class Inscription3 : Fragment() {
 
-    private var _binding: PageInscription1Binding? = null
+    private var _binding: PageInscription3Binding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,7 +23,7 @@ class Inscription1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = PageInscription1Binding.inflate(inflater, container, false)
+        _binding = PageInscription3Binding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -31,14 +31,8 @@ class Inscription1 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonEmailInscription.setOnClickListener {
-            findNavController().navigate(R.id.action_telephone_to_email)
-        }
-        binding.Back.setOnClickListener{
-            findNavController().navigate(R.id.retour_page_Acceuil)
-        }
-        binding.buttonContinuerInscriptionTelepone.setOnClickListener{
-            findNavController().navigate(R.id.telephone_Mdp)
+        binding.Back3.setOnClickListener{
+            findNavController().navigate(R.id.retour_email)
         }
     }
 
