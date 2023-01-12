@@ -23,11 +23,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
+
 
     }
 

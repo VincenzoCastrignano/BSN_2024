@@ -25,6 +25,7 @@ class Accueil : Fragment() {
     ): View? {
         _binding = PageAccueil2Binding.inflate(inflater, container, false)
         return binding.root
+
     }
 
 

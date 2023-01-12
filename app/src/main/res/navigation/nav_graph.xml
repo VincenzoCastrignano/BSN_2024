@@ -12,16 +12,21 @@
         tools:layout="@layout/page_accueil2">
 
 
-
         <action
             android:id="@+id/action_page_acceuil2_to_page_connexion1"
-            app:destination="@id/connexion1"/>
+            app:destination="@id/connexion1"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
         <action
             android:id="@+id/action_page_acceuil2_to_probleme_connexion"
-            app:destination="@+id/probleme1"/>
+            app:destination="@+id/probleme1"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_up" />
         <action
             android:id="@+id/action_page_acceuil2_to_inscription"
-            app:destination="@id/inscription"/>
+            app:destination="@id/inscription"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
 
     <fragment
