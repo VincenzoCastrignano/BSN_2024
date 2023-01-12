@@ -95,5 +95,51 @@
         <action
             android:id="@+id/retour_Mdp"
             app:destination="@id/Inscription3"/>
+        <action
+            android:id="@+id/prenom_DDN"
+            app:destination="@id/inscription5"/>
+    </fragment>
+    <fragment
+        android:id="@+id/inscription5"
+        android:name="com.example.bsn_2024.Inscription5"
+        android:label="inscription5"
+        tools:layout="@layout/page_inscription5">
+        <action
+            android:id="@+id/retour_prenom"
+            app:destination="@id/inscription4"/>
+        <action
+            android:id="@+id/continuerPrenom_DDN"
+            app:destination="@+id/inscription6"/>
+    </fragment>
+    <fragment
+        android:id="@+id/inscription6"
+        android:name="com.example.bsn_2024.Inscription6"
+        android:label="inscription6"
+        tools:layout="@layout/page_inscription6">
+        <action
+            android:id="@+id/retour_DDN"
+            app:destination="@+id/inscription5"/>
+        <action
+            android:id="@+id/continuer_genre_CGU"
+            app:destination="@+id/inscription7"/>
+    </fragment>
+    <fragment
+        android:id="@+id/inscription7"
+        android:name="com.example.bsn_2024.Inscription7"
+        android:label="inscription7"
+        tools:layout="@layout/page_inscription7">
+        <action
+            android:id="@+id/retour_genre"
+            app:destination="@+id/inscription6"/>
+        <action
+            android:id="@+id/continuerCGu_MenuPrinc"
+            app:destination="@+id/Menu_principale"/>
+    </fragment>
+    <fragment
+        android:id="@+id/Menu_principale"
+        android:name="com.example.bsn_2024.menu_principale"
+        android:label="main_menu"
+        tools:layout="@layout/main_menu">
+
     </fragment>
 </navigation>

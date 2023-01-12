@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView35"
@@ -18,7 +19,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintBottom_toTopOf="@+id/continuerDDN_genre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -26,8 +27,8 @@
         android:id="@+id/textView17"
         android:layout_width="305dp"
         android:layout_height="52dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="128dp"
         android:fontFamily="@font/abeezee"
         android:text="Ma date de naissance est ..."
         android:textColor="@color/black"
@@ -36,25 +37,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/continuerDDN_genre"
         android:layout_width="239dp"
         android:layout_height="60dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginBottom="231dp"
+        android:layout_marginBottom="72dp"
         android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
         android:text="Continuer"
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent" />
 
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="59dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/Back5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
 
@@ -67,6 +72,7 @@
         android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="date"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/textView35"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
