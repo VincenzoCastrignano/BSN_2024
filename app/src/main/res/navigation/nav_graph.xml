@@ -49,10 +49,14 @@
             app:destination="@id/inscription2"/>
         <action
             android:id="@+id/retour_page_Acceuil"
-            app:destination="@id/page_acceuil2"/>
+            app:destination="@id/page_acceuil2"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/telephone_Mdp"
-            app:destination="@id/Inscription3"/>
+            app:destination="@id/Inscription3"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
 
     <fragment
@@ -74,10 +78,14 @@
             app:destination="@id/inscription"/>
         <action
             android:id="@+id/retour_page_Acceuil"
-            app:destination="@+id/page_acceuil2"/>
+            app:destination="@+id/page_acceuil2"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/email_Mdp"
-            app:destination="@id/Inscription3"/>
+            app:destination="@id/Inscription3"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/Inscription3"
@@ -86,10 +94,14 @@
         tools:layout="@layout/page_inscription3">
         <action
             android:id="@+id/retour_email"
-            app:destination="@id/inscription2"/>
+            app:destination="@id/inscription2"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/Mdp_prenom"
-            app:destination="@id/inscription4"/>
+            app:destination="@id/inscription4"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
 
     </fragment>
     <fragment
@@ -99,10 +111,14 @@
         tools:layout="@layout/page_inscription4">
         <action
             android:id="@+id/retour_Mdp"
-            app:destination="@id/Inscription3"/>
+            app:destination="@id/Inscription3"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/prenom_DDN"
-            app:destination="@id/inscription5"/>
+            app:destination="@id/inscription5"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/inscription5"
@@ -111,10 +127,14 @@
         tools:layout="@layout/page_inscription5">
         <action
             android:id="@+id/retour_prenom"
-            app:destination="@id/inscription4"/>
+            app:destination="@id/inscription4"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/continuerPrenom_DDN"
-            app:destination="@+id/inscription6"/>
+            app:destination="@+id/inscription6"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/inscription6"
@@ -123,10 +143,14 @@
         tools:layout="@layout/page_inscription6">
         <action
             android:id="@+id/retour_DDN"
-            app:destination="@+id/inscription5"/>
+            app:destination="@+id/inscription5"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/continuer_genre_CGU"
-            app:destination="@+id/inscription7"/>
+            app:destination="@+id/inscription7"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/inscription7"
@@ -135,10 +159,14 @@
         tools:layout="@layout/page_inscription7">
         <action
             android:id="@+id/retour_genre"
-            app:destination="@+id/inscription6"/>
+            app:destination="@+id/inscription6"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out" />
         <action
             android:id="@+id/continuerCGu_MenuPrinc"
-            app:destination="@+id/Menu_principale"/>
+            app:destination="@+id/Menu_principale"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/Menu_principale"
