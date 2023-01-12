@@ -24,7 +24,7 @@
 
 
     <Button
-        android:id="@+id/button_continuer_inscription"
+        android:id="@+id/button_continuer_inscription_telepone"
         android:layout_width="239dp"
         android:layout_height="60dp"
         android:layout_marginBottom="72dp"
@@ -60,7 +60,7 @@
         android:layout_marginBottom="76dp"
         android:entries="@array/tel_countries"
         android:textColor='@color/black'
-        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription"
+        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription_telepone"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -75,7 +75,7 @@
         android:inputType="textPassword"
 
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription"
+        app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription_telepone"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
@@ -104,6 +104,17 @@
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/trait" />
+
+    <ImageButton
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
 
 
 

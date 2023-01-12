@@ -2,16 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/continuation_genre"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="44dp"
         android:layout_height="18dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="320dp"
         android:fontFamily="@font/abeezee"
         android:text="Nom"
         android:textColor="@color/black"
@@ -23,7 +25,7 @@
         android:id="@+id/textView32"
         android:layout_width="56dp"
         android:layout_height="18dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="144dp"
         android:fontFamily="@font/abeezee"
         android:text="Prénom"
@@ -34,28 +36,38 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="239dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="231dp"
-        android:backgroundTint="@color/PurpleM"
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="108dp"
         android:fontFamily="@font/abeezee"
-        android:text="Continuer"
-        android:textColor="@color/white"
+        android:text="Je m'appelle... :"
+        android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="265dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:fontFamily="@font/abeezee"
+        android:hint="Entrez votre prénom......"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="297dp"
         android:layout_height="37dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/abeezee"
         android:text="Walk a Friend ne partagera jamais vos données sans votre permission."
         android:textAlignment="center"
@@ -65,25 +77,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="305dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="75dp"
+    <Button
+        android:id="@+id/continuerPrenom_DDN"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/PurpleM"
         android:fontFamily="@font/abeezee"
-        android:text="Je m'appelle... :"
-        android:textColor="@color/black"
+        android:text="Continuer"
+        android:textColor="@color/white"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/Password"
         android:layout_width="265dp"
         android:layout_height="58dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:fontFamily="@font/abeezee"
         android:hint="Entrez votre nom......"
@@ -91,24 +105,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password1" />
 
-    <EditText
-        android:id="@+id/Password1"
-        android:layout_width="265dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="70dp"
-        android:ems="10"
-        android:fontFamily="@font/abeezee"
-        android:hint="Entrez votre prénom......"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="59dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/Back4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
 
