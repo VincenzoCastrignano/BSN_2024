@@ -40,6 +40,8 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 

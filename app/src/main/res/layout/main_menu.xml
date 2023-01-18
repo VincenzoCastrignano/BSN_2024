@@ -9,12 +9,13 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="37dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="102dp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
         android:fontFamily="@font/abeezee"
-        android:text="DM"
+        android:text="Messsages"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
@@ -28,6 +29,7 @@
         android:fontFamily="@font/abeezee"
         android:text="Profil"
         android:textSize="20dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
@@ -35,10 +37,11 @@
         android:id="@+id/textView11"
         android:layout_width="81dp"
         android:layout_height="23dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/abeezee"
         android:text="Badges"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
@@ -47,10 +50,11 @@
         android:id="@+id/textView12"
         android:layout_width="57dp"
         android:layout_height="23dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="88dp"
         android:fontFamily="@font/abeezee"
         android:text="Amis"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
@@ -109,10 +113,11 @@
         android:id="@+id/textView9"
         android:layout_width="51dp"
         android:layout_height="25dp"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/abeezee"
         android:text="RDV"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7" />

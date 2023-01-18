@@ -62,6 +62,8 @@
         android:hint="Votre adresse mail..."
         android:inputType="textPassword"
         android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/buttonContinuerInscriptionEmail"
         app:layout_constraintEnd_toEndOf="parent" />
 

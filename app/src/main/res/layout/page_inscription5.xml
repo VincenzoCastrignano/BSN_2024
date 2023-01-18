@@ -73,6 +73,8 @@
         android:ems="10"
         android:inputType="date"
         android:visibility="visible"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView35"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

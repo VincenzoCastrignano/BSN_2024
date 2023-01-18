@@ -24,6 +24,7 @@
         android:layout_marginStart="104dp"
         android:layout_marginBottom="140dp"
         android:text="J'accepte les CGU"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/continuerCGu_MenuPrinc"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -47,6 +48,7 @@
         android:layout_height="66dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="252dp"
+        android:backgroundTint="#D4D4D4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/file" />

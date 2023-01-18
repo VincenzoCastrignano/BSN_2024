@@ -73,8 +73,9 @@
         android:fontFamily="@font/abeezee"
         android:hint="Votre numéro de téléphone..."
         android:inputType="textPassword"
-
         android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button_continuer_inscription_telepone"
         app:layout_constraintEnd_toEndOf="parent" />
 
