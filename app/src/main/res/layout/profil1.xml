@@ -150,10 +150,13 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="59dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/BackMonprofil_Profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
 

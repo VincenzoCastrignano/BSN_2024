@@ -31,7 +31,7 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfil" />
 
     <TextView
         android:id="@+id/textView11"
@@ -100,7 +100,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonProfil"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"

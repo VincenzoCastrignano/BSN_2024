@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imageProfil2"
         android:layout_width="353dp"
         android:layout_height="66dp"
         android:layout_marginStart="31dp"
@@ -14,7 +15,7 @@
         android:layout_marginEnd="31dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/BackMenu"
         app:srcCompat="@drawable/user" />
 
     <ImageButton
@@ -74,14 +75,17 @@
         android:layout_marginEnd="31dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageProfil2"
         app:srcCompat="@drawable/navigation" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="59dp"
-        android:layout_height="69dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/BackMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_left" />
 
@@ -89,8 +93,8 @@
         android:id="@+id/textView37"
         android:layout_width="66dp"
         android:layout_height="38dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="72dp"
         android:text="User"
         android:textColor="@color/black"
         android:textSize="30dp"
@@ -101,8 +105,8 @@
         android:id="@+id/imageView11"
         android:layout_width="59dp"
         android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />

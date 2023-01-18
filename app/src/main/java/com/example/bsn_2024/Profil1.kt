@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.bsn_2024.databinding.MainMenuBinding
+import com.example.bsn_2024.databinding.ProfilBinding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class menu_principale : Fragment() {
+class Profil1 : Fragment() {
 
-    private var _binding: MainMenuBinding? = null
+    private var _binding: ProfilBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,7 +23,7 @@ class menu_principale : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = MainMenuBinding.inflate(inflater, container, false)
+        _binding = ProfilBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -31,8 +31,11 @@ class menu_principale : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonProfil.setOnClickListener{
-            findNavController().navigate(R.id.Menu_Profil)
+        binding.BackMenu.setOnClickListener {
+            findNavController().navigate(R.id.Profil_menu)
+        }
+        binding.imageProfil2.setOnClickListener{
+            findNavController().navigate(R.id.Profil_monProfil)
         }
     }
 

@@ -173,6 +173,30 @@
         android:name="com.example.bsn_2024.menu_principale"
         android:label="main_menu"
         tools:layout="@layout/main_menu">
-
+        <action
+            android:id="@+id/Menu_Profil"
+            app:destination="@+id/Profil"/>
     </fragment>
+    <fragment
+        android:id="@+id/Profil"
+        android:name="com.example.bsn_2024.Profil1"
+        android:label="Profil"
+        tools:layout="@layout/profil">
+        <action
+            android:id="@+id/Profil_monProfil"
+            app:destination="@id/Profil1"/>
+        <action
+            android:id="@+id/Profil_menu"
+            app:destination="@id/Menu_principale"/>
+    </fragment>
+    <fragment
+        android:id="@+id/Profil1"
+        android:name="com.example.bsn_2024.Profil2"
+        android:label="Profil2"
+        tools:layout="@layout/profil1">
+        <action
+            android:id="@+id/Profil_MonProfil_Profil"
+            app:destination="@+id/Profil"/>
+    </fragment>
+
 </navigation>
