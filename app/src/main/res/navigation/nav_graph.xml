@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/page_acceuil2"
-        android:name="com.example.bsn_2024.Accueil"
+        android:name="com.example.bsn_2024.Menu.Accueil"
         android:label="@string/page_acceuil2_label"
         tools:layout="@layout/page_accueil2">
 
@@ -170,7 +170,7 @@
     </fragment>
     <fragment
         android:id="@+id/Menu_principale"
-        android:name="com.example.bsn_2024.menu_principale"
+        android:name="com.example.bsn_2024.Menu.menu_principale"
         android:label="main_menu"
         tools:layout="@layout/main_menu">
         <action
