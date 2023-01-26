@@ -1,10 +1,11 @@
-package com.example.bsn_2024
+package com.example.bsn_2024.Profil
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.bsn_2024.R
 import com.example.bsn_2024.databinding.Profil1Binding
 
 /**

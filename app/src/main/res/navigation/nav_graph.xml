@@ -179,7 +179,7 @@
     </fragment>
     <fragment
         android:id="@+id/Profil"
-        android:name="com.example.bsn_2024.Profil1"
+        android:name="com.example.bsn_2024.Profil.Profil1"
         android:label="Profil"
         tools:layout="@layout/profil">
         <action
@@ -191,7 +191,7 @@
     </fragment>
     <fragment
         android:id="@+id/Profil1"
-        android:name="com.example.bsn_2024.Profil2"
+        android:name="com.example.bsn_2024.Profil.Profil2"
         android:label="Profil2"
         tools:layout="@layout/profil1">
         <action
