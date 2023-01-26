@@ -1,5 +1,7 @@
 package com.example.bsn_2024
 
+import com.example.bsn_2024.Class.User
+
 fun main() {
     val moi = User(1,
         "Castrignano",
