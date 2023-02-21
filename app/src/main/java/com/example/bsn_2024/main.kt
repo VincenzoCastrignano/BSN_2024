@@ -1,7 +1,8 @@
 package com.example.bsn_2024
 
-import com.example.bsn_2024.Class.User
 import com.example.bsn_2024.Class.Friend
+import com.example.bsn_2024.Class.User
+
 
 fun main() {
     val moi = User(1,
@@ -21,18 +22,19 @@ fun main() {
         rdv = arrayOf(""))
 
 
-
-    val ami = Friend(1,
+    val ami = Friend(
+        1,
         "Beaudoin",
         "Eliott",
-        20,
+        19,
         "eliott.beaudoin@esqese.ucly.fr",
         "0601020304",
-        true,
+        true
+    )
 
-        )
     val a = moi.get_user()
     val b = ami.get_friend()
+
     println(a)
     println(b)
 }
