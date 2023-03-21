@@ -10,11 +10,11 @@ class User(var ID_user: Int,
            var gender: Boolean,
            var trajet: Route,
            var conversation: Message,
-           var settings: Settings,
+           var password: String,
            var place: Place) {
 
     fun get_user(): User {
-        return User(ID_user, name, lastName, age, mail, location, phone, gender, trajet, conversation, settings, place)
+        return User(ID_user, name, lastName, age, mail, location, phone, gender, trajet, conversation, password, place)
     }
 
     override fun toString(): String {
@@ -28,7 +28,7 @@ class User(var ID_user: Int,
                 "gender : $gender\n" +
                 "trajet : $trajet\n" +
                 "conversation : $conversation\n" +
-                "settings : $settings\n" +
+                "password : $password\n" +
                 "place : $place\n")
     }
 
