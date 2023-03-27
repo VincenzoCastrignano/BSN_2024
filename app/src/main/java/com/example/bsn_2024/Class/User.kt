@@ -1,41 +1,37 @@
 package com.example.bsn_2024.Class
 
-class User(var ID: Int,
-           var last_name: String,
-           var first_name: String,
-           var age: Int,
-           var mail: String,
-           var geoloc: Boolean,
-           var friend: Array<String>,
-           var conversation: Array<String>,
-           var config: Array<String>,
-           var user_name: String,
-           var user_pwd: String,
-           var phone: String,
-           var sex: Boolean,
-           var trajet: Array<String>,
-           var rdv: Array<String>) {
+class User(
+    var ID_user: Int,
+    var name: String,
+    var lastName: String,
+    var age: Int,
+    var mail: String,
+    var location: Boolean,
+    var phone: String,
+    var gender: Boolean,
+    var trajet: Array<String>,
+    var conversation: Array<String>,
+    var password: String,
+    var place: Array<String>
+) {
 
     fun get_user(): User {
-        return User(ID, last_name, first_name, age, mail, geoloc, friend, conversation, config, user_name, user_pwd, phone, sex, trajet, rdv)
+        return User(ID_user, name, lastName, age, mail, location, phone, gender, trajet, conversation, password, place)
     }
 
     override fun toString(): String {
-        return ("ID : $ID \n" +
-                "last_name : $last_name\n" +
-                "first_name : $first_name\n" +
+        return ("ID : $ID_user \n" +
+                "name : $name\n" +
+                "lastName : $lastName\n" +
                 "age : $age\n" +
                 "mail : $mail\n" +
-                "geoloc : $geoloc\n" +
-                "friend : $friend\n" +
-                "conversation : $conversation\n" +
-                "config : $config\n" +
-                "user_name : $user_name\n" +
-                "user_pwd : $user_pwd\n" +
+                "location : $location\n" +
                 "phone : $phone\n" +
-                "sex : $sex\n" +
+                "gender : $gender\n" +
                 "trajet : $trajet\n" +
-                "rdv : $rdv\n")
+                "conversation : $conversation\n" +
+                "password : $password\n" +
+                "place : $place\n")
     }
 
     fun inscription(): String {

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.constraintlayout.motion.widget.MotionLayout
-import com.example.bsn_2024.MainActivity
+import com.example.bsn_2024.MainPage
 import com.example.bsn_2024.R
 
 class splashactivity : AppCompatActivity() {
@@ -42,7 +42,7 @@ class splashactivity : AppCompatActivity() {
             }
 
             override fun onTransitionCompleted(motionLayout: MotionLayout?, currentId: Int) {
-                startActivity(Intent(this@splashactivity, MainActivity::class.java))
+                startActivity(Intent(this@splashactivity, MainPage::class.java))
                 finish()
             }
 
