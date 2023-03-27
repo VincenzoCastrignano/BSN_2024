@@ -1,17 +1,19 @@
 package com.example.bsn_2024.Class
 
-class User(var ID_user: Int,
-           var name: String,
-           var lastName: String,
-           var age: Int,
-           var mail: String,
-           var location: Boolean,
-           var phone: String,
-           var gender: Boolean,
-           var trajet: Route,
-           var conversation: Message,
-           var password: String,
-           var place: Place) {
+class User(
+    var ID_user: Int,
+    var name: String,
+    var lastName: String,
+    var age: Int,
+    var mail: String,
+    var location: Boolean,
+    var phone: String,
+    var gender: Boolean,
+    var trajet: Array<String>,
+    var conversation: Array<String>,
+    var password: String,
+    var place: Array<String>
+) {
 
     fun get_user(): User {
         return User(ID_user, name, lastName, age, mail, location, phone, gender, trajet, conversation, password, place)

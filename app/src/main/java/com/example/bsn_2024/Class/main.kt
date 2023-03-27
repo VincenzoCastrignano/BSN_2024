@@ -9,15 +9,12 @@ fun main() {
         19,
         "vincenzo.castrignano@esqese.ucly.fr",
         true,
-        friend = arrayOf(""),
         conversation = arrayOf(""),
-        config = arrayOf(""),
-        "Username",
-        "userpassword",
-        "0625817826",
-        true,
+        password = "userpassword",
+        phone = "0625817826",
+        gender = true,
         trajet = arrayOf(""),
-        rdv = arrayOf(""))
+        place = arrayOf(""))
 
     val a = moi.get_user()
     println(a)

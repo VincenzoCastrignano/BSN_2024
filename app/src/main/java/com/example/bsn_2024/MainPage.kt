@@ -15,5 +15,6 @@ class MainPage : AppCompatActivity() {
             val intent = Intent(this, Inscription1::class.java)
             startActivity(intent)
         }
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
