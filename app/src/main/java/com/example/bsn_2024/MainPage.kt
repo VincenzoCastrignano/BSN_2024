@@ -6,15 +6,19 @@ import android.os.Bundle
 import android.widget.Button
 
 class MainPage : AppCompatActivity() {
+    private lateinit var CreerCompte:Button
+    private lateinit var Connexion:Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page)
-        val button = findViewById<Button>(R.id.inscription)
 
-        button.setOnClickListener {
+        CreerCompte = findViewById<Button>(R.id.inscription)
+
+        CreerCompte.setOnClickListener {
             val intent = Intent(this, Inscription1::class.java)
             startActivity(intent)
         }
-        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
+

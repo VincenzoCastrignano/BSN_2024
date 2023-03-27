@@ -1,4 +1,7 @@
 package com.example.bsn_2024
 
-class Inscription1Model {
-}
+data class Inscription1Model (
+    var inscription1: String? = null,
+    var number: String? = null,
+
+    )
