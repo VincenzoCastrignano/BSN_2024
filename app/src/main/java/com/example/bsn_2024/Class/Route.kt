@@ -7,7 +7,7 @@ class Route(var ID_user: Int,
             var ID_place_end: Int,
             var horaire: Time) {
 
-    fun get_user(): Route {
+    fun get_route(): Route {
         return Route(ID_user, ID_place_start, ID_place_end, horaire)
     }
 
