@@ -28,8 +28,8 @@ class Inscription1 : AppCompatActivity() {
 
         dbRef = FirebaseDatabase.getInstance().getReference("Telephone")
 
-        buttonInscription.setOnClickListener {
-            savePhone()
+        button.setOnClickListener {
+            
             val intent = Intent(this, Inscription2::class.java)
             startActivity(intent)
         }

@@ -25,7 +25,7 @@ class TrajetActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.trajet)
+        setContentView(R.layout.activity_trajet)
 
         dbRef = FirebaseDatabase.getInstance().getReference("Trajet")
 
@@ -38,7 +38,7 @@ class TrajetActivity : AppCompatActivity() {
 
         buttonRoute.setOnClickListener {
             saveValuesRoute()
-            val intent = Intent(this, // ? Inscription2::class.java)
+            val intent = Intent(this, Inscription2::class.java)
             startActivity(intent)
         }
 
