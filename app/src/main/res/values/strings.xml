@@ -27,4 +27,7 @@
     </string-array>
 
     <string name="test">oui</string>
+    <string name="title_activity_trajet2">Trajet2</string>
+    <string name="next">Next</string>
+    <string name="title_activity_trajet">Trajet</string>
 </resources>
