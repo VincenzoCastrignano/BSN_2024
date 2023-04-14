@@ -25,7 +25,7 @@ class TrajetActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.trajet)
+        setContentView(R.layout.activity_trajet)
 
         dbRef = FirebaseDatabase.getInstance().getReference("Trajet")
 
