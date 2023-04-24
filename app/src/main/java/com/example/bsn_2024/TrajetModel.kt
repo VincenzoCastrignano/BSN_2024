@@ -1,6 +1,6 @@
-package com.example.bsn_2024.Routing
+package com.example.bsn_2024
 
-data class RouteData(
+data class TrajetModel(
     val ID: String? = null,
     val pointA: String? = null,
     val pointB: String? = null,
