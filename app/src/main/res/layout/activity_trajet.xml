@@ -8,25 +8,25 @@
         android:id="@+id/et_point_a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="..." />
+        android:hint="@string/point_a" />
 
     <EditText
         android:id="@+id/et_point_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="..." />
+        android:hint="@string/point_b" />
 
     <EditText
         android:id="@+id/et_date_heure"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="..." />
+        android:hint="@string/date_heure" />
 
     <Button
         android:id="@+id/btn_calculer_trajet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="..." />
+        android:text="@string/calculer_trajet" />
 
     <TextView
         android:id="@+id/tv_result"

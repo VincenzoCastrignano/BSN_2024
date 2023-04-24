@@ -1,11 +1,11 @@
 package com.example.bsn_2024.Class
 
-import java.sql.Time
-
-class Route(var ID_user: Int,
-            var ID_place_start: Int,
-            var ID_place_end: Int,
-            var horaire: Time) {
+class Route(
+    var ID_user: Int,
+    var ID_place_start: String,
+    var ID_place_end: String,
+    var horaire: String
+) {
 
     fun get_route(): Route {
         return Route(ID_user, ID_place_start, ID_place_end, horaire)

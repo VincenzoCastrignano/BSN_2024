@@ -30,4 +30,8 @@
     <string name="title_activity_trajet2">Trajet2</string>
     <string name="next">Next</string>
     <string name="title_activity_trajet">Trajet</string>
+    <string name="point_a">Part-Dieu</string>
+    <string name="point_b">Charpenne</string>
+    <string name="date_heure">21 H</string>
+    <string name="calculer_trajet">Allons-y</string>
 </resources>
